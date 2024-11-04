@@ -1,0 +1,22 @@
+* {
+    font-family: 'Russo One', sans-serif;
+    color: #FFFFFF !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #18181E !important;
+}
+
+.navbar{
+    background-color: #0C0C0F;
+    height: 10vh;
+}
+
+h1{ margin-top: 2rem !important; margin-bottom: 2rem !important; }
+
+
+
+.rojo{ color: red !important;}

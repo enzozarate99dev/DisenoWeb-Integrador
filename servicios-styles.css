@@ -1,0 +1,16 @@
+main{
+    height: 100%;
+    width:  100%;
+    margin-top: 10vh;
+    padding-inline: 10vw;
+
+}
+.card{
+    background-color: #181818 !important;
+}
+.card-body button{
+    background-color: #B20003;
+}
+.modal-content{
+    background-color: #181818 !important;
+}
