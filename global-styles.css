@@ -9,14 +9,27 @@
 body {
     background-color: #18181E !important;
 }
+main{
+    height: 100%;
+    width:  100%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    padding-inline: 10vw;
+
+}
 
 .navbar{
     background-color: #0C0C0F;
     height: 10vh;
 }
+.collapse{
+    background-color: #0C0C0F !important;
+width: 100% !important; }
 
-h1{ margin-top: 2rem !important; margin-bottom: 2rem !important; }
 
-
+.racing{
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: large;
+}
 
 .rojo{ color: red !important;}

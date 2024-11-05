@@ -1,0 +1,13 @@
+main{
+    height: 100%;
+    width:  100%;
+    margin-top: 20vh;
+    padding-inline: 10vw;
+
+}
+option{
+    color: grey !important;
+}
+.btn:hover{
+    background-color: #B20003  !important;
+}
