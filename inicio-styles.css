@@ -92,6 +92,9 @@
     object-fit: contain; 
 }
 
+.marcas{
+    height: 220px !important;
+}
 .marcas .container {
     padding-inline: 15px;
 }
