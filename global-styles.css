@@ -25,9 +25,6 @@ main{
 .navbar{
     background-color: #B20003;
     height: 10vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .collapse{
     background-color: #B20003 !important;
@@ -48,6 +45,19 @@ width: 100% !important; }
     filter: invert(1);
 }
 
+.map-wrapper {
+    position: relative;
+    width: 100vw; /* Asegura que ocupe todo el ancho de la pantalla */
+    left: 0; /* No se mueve fuera de la vista */
+    margin-top: 20px; /* Un pequeño margen entre el contenido y el mapa */
+}
+
+/* Estilo para el iframe */
+.full-width-map {
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+    height: 600px; /* Ajusta la altura del mapa */
+    border: 0;
+}
 
 @media (max-width: 768px)  {
    
