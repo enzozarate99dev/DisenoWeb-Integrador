@@ -1,10 +1,14 @@
 * {
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Roboto mono', sans-serif;
     color: #FFFFFF !important;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 18px;
 }
+
+h1{font-family: 'Russo one', sans-serif; font-size: 40px !important;}
+h2{font-family: 'Russo one', sans-serif; font-size: 24px !important;}
 
 body {
     background-color: #18181E !important;
@@ -19,17 +23,36 @@ main{
 }
 
 .navbar{
-    background-color: #0C0C0F;
+    background-color: #B20003;
     height: 10vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 .collapse{
-    background-color: #0C0C0F !important;
+    background-color: #B20003 !important;
 width: 100% !important; }
 
 
-.racing{
-    font-family: 'Racing Sans One', sans-serif;
-    font-size: large;
+
+.rojo-h1{ color: red !important; font-size: 40px !important;font-family: 'Russo one', sans-serif; }
+.rojo-h2{ color: red !important;font-size: 24px !important;font-family: 'Russo one', sans-serif; }
+.rojo-texto{ color: red !important;font-size: 18px !important;}
+
+
+.navbar-toggler {
+    border: none !important;
 }
 
-.rojo{ color: red !important;}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
+@media (max-width: 768px)  {
+   
+    footer .row{
+        text-align: center !important;
+    }
+}
+

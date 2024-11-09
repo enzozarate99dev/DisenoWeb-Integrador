@@ -1,9 +1,19 @@
-
+body{background-color: #2F2C79 !important;}
 .card{
     background-color: #181818 !important;
+    height: 350px !important;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .card-body button{
-    background-color: #B20003;
+    background-color: #FF0000;
+}
+.card-title{
+    margin-bottom: 1rem !important;
 }
 .card-img-top {
     width: 100%;
@@ -11,34 +21,22 @@
     object-fit: cover; 
 }
 
+.card-text {
+    max-height: 50px; 
+    overflow: hidden; 
+    text-align: center;
+}
+
 .modal-content{
-    background-color: #171A4A !important;
+    background-color: #B20003 !important;
 }
 .lista-modal li{
     margin-bottom: 1rem;
 }
 
+.modal-icono img {
+    width: 150px; 
+    height: auto; 
 
-.modal img {
-    width: 350px; 
-    height: 200px; 
-    object-fit: cover; 
 }
-h5{
-    letter-spacing: 1rem;
-    margin-bottom: 1rem !important;
-    text-align: center !important;
-}
-.card-text{
-    font-family: 'Racing Sans One', sans-serif;
-    font-size: large;
-}
-@media (max-width: 576px) {
-    .modal img {
-        width: 100%; 
-        height: auto; 
-        max-height: 200px; 
-    }
-}
-
 
