@@ -28,7 +28,9 @@ main{
 }
 .collapse{
     background-color: #B20003 !important;
-width: 100% !important; }
+width: 100% !important; 
+padding-left: 1rem;
+}
 
 
 
